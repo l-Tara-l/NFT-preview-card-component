@@ -1,0 +1,142 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  h2 {
+    font-weight: 600;
+    text-align: left;
+    color: white;
+    margin: 0;
+    position: relative;
+    left: 10%;
+  }
+
+  h2:hover {
+    color: hsl(178, 100%, 50%);
+    transition: .5s ease;
+  }
+  
+  p {
+    text-align: left;
+    line-height: 1.5;
+    color: hsl(215, 51%, 70%);
+    margin-left: 10%;
+    margin-left: 10%;
+    font-weight: 300;
+  }
+  
+  hr {
+    border: none ;
+    border-top: solid;
+    border-color: grey;
+    border-width: 1px;
+    margin: 60px auto 1px;
+    width: 80%;
+  }
+  
+  .main-container {
+    width: 320px;
+    height: 550px;
+    background-color: hsl(216, 50%, 16%);
+    display: inline-block;
+    text-align: center;
+    margin: 22% auto ;
+    border-radius: 3%;
+    position: relative;
+  }
+
+
+  .img-container {
+    width: 85%;
+    height: 272px;
+    margin: 10% auto 5%;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 3.5%;
+  }
+
+  .view {
+    display: none;
+    position: absolute;
+    top: 136px;
+    left: 136px;
+  }
+
+  .img-container:hover .view {
+    display: inline-block;
+    transition: .5s ease;
+  }
+
+  .img-container:hover .equilibrium-img {
+    opacity: 0.4;
+    transition: .5s ease;
+  }
+
+  .equilibrium-img {
+    display: inline-block;
+    width: 100%;
+    margin: 0%;
+    border-radius: 3%;
+  }
+
+  .equilibrium-img:hover {
+    opacity: 0.4;
+    transition: .5s ease;
+  }
+  
+  .ethereum-p {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+  }
+  
+  .clock-p {
+    color: hsl(215, 51%, 70%);
+  }
+  
+  .ethereum-container {
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+  }
+
+  .clock-container {
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+  }
+  
+  .avatar {
+    display: inline-block;
+    width: 10%;
+    border: solid ;
+    border-radius: 100%;
+    border-color: white;
+    position: relative;
+    right: 8%;
+    margin: 5%;
+  }
+  
+  .creation {
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    right: 10%;
+    bottom: 33px;
+    font-weight: 300;
+  }
+  
+ .creation-name {
+   color: white;
+   font-weight: 400;
+ }
+
+ .creation-name:hover {
+    color: hsl(178, 100%, 50%);
+    transition: .5s ease;
+  }
+  
+  @media only screen and (min-width: 700px) {
+    .main-container {
+      margin: 3% auto ;
+    }
+  }
