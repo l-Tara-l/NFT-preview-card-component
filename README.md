@@ -35,5 +35,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Tara](https://www.your-site.com)
+- [Tara]
 - Frontend Mentor - [@l-Tara-l](https://www.frontendmentor.io/profile/l-Tara-l)
